@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rincón | Un lugar donde somos nosotros</title>
+    <link rel="icon" href="img/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-modo="mediodia">
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+      <div class="container">
+        <a href="#" class="logo-link">
+          <h1 class="logo-h1">Rincón</h1>
+        </a>
+
+        <nav class="nav-menu">
+          <a href="#">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="modo-switch" id="modo-switch">
+          <div class="modo-background"></div>
+          <div class="modo-selector" id="modo-selector"></div>
+
+          <!-- Botón: Mediodía -->
+          <button class="modo-btn" data-modo="mediodia" aria-label="Mediodía">
+              <svg class="modo-icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.63 190.95"> <path fill="currentColor" d="M158.99,144.65c14.78,0,12.06.02,26.5-.01,3.48,0,7.29,0,7.4,4.53.12,4.97-3.92,4.92-7.59,4.92-66.81-.01-99.29-.02-166.11,0-3.47,0-7.3.02-7.43-4.5-.15-4.98,3.88-4.96,7.55-4.95,14.45.03,11.73.01,26.83.01,2.84-18.98,11.72-34.12,28.63-43.79,10.29-5.88,21.39-8.36,33.23-7.03,27.14,3.05,44.56,20.27,50.99,50.82ZM56.07,144.27h92.9c-1.76-24.96-22.55-43.53-47.84-43.09-23.82.42-44.13,19.77-45.05,43.09Z"/> <rect fill="currentColor" x="88.09" y="45.92" width="28.45" height="10.34" rx="5.17" ry="5.17" transform="translate(153.41 -51.23) rotate(90)"/> <rect fill="currentColor" x="153.88" y="75.48" width="28.45" height="10.34" rx="5.17" ry="5.17" transform="translate(344.01 18.81) rotate(135)"/> <rect fill="currentColor" x="23.41" y="75.48" width="28.45" height="10.34" rx="5.17" ry="5.17" transform="translate(68.05 -2.99) rotate(45)"/>
+              </svg>
+          </button>
+
+          <!-- Botón: Atardecer -->
+          <button class="modo-btn" data-modo="atardecer">
+              <svg class="modo-icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.63 190.95"> <g fill="currentColor"><rect x="74.94" y="24.03" width="54.75" height="10.94" rx="5.47" ry="5.47" transform="translate(131.82 -72.81) rotate(90)"/><rect x="74.94" y="155.98" width="54.75" height="10.94" rx="5.47" ry="5.47" transform="translate(263.76 59.13) rotate(90)"/><rect x="140.91" y="90.01" width="54.75" height="10.94" rx="5.47" ry="5.47" transform="translate(336.57 190.95) rotate(180)"/><rect x="8.97" y="90.01" width="54.75" height="10.94" rx="5.47" ry="5.47" transform="translate(72.69 190.95) rotate(-180)"/><rect x="125.52" y="131.29" width="36.17" height="10.94" rx="5.47" ry="5.47" transform="translate(148.44 335.01) rotate(-135)"/><rect x="44.38" y="49.31" width="34.48" height="10.94" rx="5.47" ry="5.47" transform="translate(66.46 137.1) rotate(-135)"/><rect x="44.14" y="131.29" width="36.17" height="10.94" rx="5.47" ry="5.47" transform="translate(-78.48 84.06) rotate(-45)"/><rect x="126.96" y="49.31" width="34.48" height="10.94" rx="5.47" ry="5.47" transform="translate(3.5 118.01) rotate(-45)"/><path d="M102.32,67.23c-15.59,0-28.23,12.64-28.23,28.23s12.64,28.23,28.23,28.23,28.23-12.64,28.23-28.23-12.64-28.23-28.23-28.23ZM102.32,115.04c-10.81,0-19.57-8.76-19.57-19.57s8.76-19.57,19.57-19.57,19.57,8.76,19.57,19.57-8.76,19.57-19.57,19.57Z"/></g></svg>
+          </button>
+
+          <!-- Botón: Noche -->
+            <button class="modo-btn" data-modo="noche">
+              <svg class="modo-icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.63 190.95"><path fill="currentColor" d="M59.91,156.16c-30.49-30.94-33.07-81.21-5.66-114.63C81.03,8.86,125.92.02,163,20.08c2.75,1.49,4.71,3.42,4.08,6.82-.61,3.29-3.1,4.2-6.07,4.63-34.09,4.99-57.45,33.95-55.15,68.28,1.96,29.16,25.39,54.18,54.35,58.02,1.32.17,2.64.28,3.95.53,2.74.52,4.73,1.99,5.15,4.87.39,2.63-1.03,4.32-3.27,5.58-31.4,17.69-62.39,16.93-92.83-2.27-4.73-2.99-8.88-6.9-13.3-10.39ZM145.35,166.47c-31.6-13.33-50.16-36.24-50.53-70.64-.36-34.23,17.65-57.54,48.57-71.5-26.39-8.66-61.1-1.49-82.32,27.57-19.75,27.06-18.64,64.71,3.13,91.24,21.48,26.17,55.48,32.12,81.15,23.33Z"/>
+              </svg>
+            </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= INICIO ================= -->
+    <section class="inicio">
+      <video
+        autoplay
+        class="video-fondo"
+        id="video-fondo"
+        loop
+        muted
+        playsinline
+      >
+        <source src="img/Miselanias Inicio 1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="contenido-inicio">
+        <h1 class="titulo-inicio">Hola<span>!</span></h1>
+        <h2 class="subtitulo-inicio">Llegaste a nuestro rincón</h2>
+      </div>
+
+      <a href="#nosotros" class="btn-conocenos">Conocenos un poco más</a>
+    </section>
+
+    <!-- ================= NOSOTROS ================= -->
+    <section class="nosotros" id="nosotros">
+      <div class="contenedor-nosotros">
+        <button class="btn-flecha" id="anterior">
+          <img src="img/flechaizquierda.png" alt="Anterior" />
+        </button>
+
+        <div class="info-nosotros">
+          <h3 class="nombre" id="nombre-integrante">Ana Giammarini</h3>
+          <p class="descripcion" id="desc1-integrante">
+            Soy Ana, tengo 22 años y soy la artista 3D de la agencia Rincón.
+          </p>
+          <p class="descripcion" id="desc2-integrante">
+            Vengo de Berazategui y desde chiquita de alguna forma u otra me
+            interesaba el diseño, ya sea en posters, videojuegos, etc. Aspiro a
+            mejorar cada día más.
+          </p>
+        </div>
+
+        <div class="foto-integrante">
+          <img
+            id="foto-integrante"
+            src="img/ana giammarini.png"
+            alt="Ana Giammarini"
+          />
+        </div>
+
+        <button class="btn-flecha" id="siguiente">
+          <img src="img/flechaderecha.png" alt="Siguiente" />
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="portfolio-titulo">Mirá un poco de nuestros trabajos</h2>
+
+      <div class="grid-portfolio">
+        <button class="cat-card" data-categoria="motion" aria-expanded="false" aria-label="Motion Graphics">
+          <img class="box-img" src="img/Mesa de trabajo 19.png" alt="Motion Graphics">
+        </button>
+
+        <button class="cat-card" data-categoria="modelado" aria-expanded="false" aria-label="Modelado 3D">
+          <img class="box-img" src="img/Mesa de trabajo 20.png" alt="Modelado 3D">
+        </button>
+
+        <button class="cat-card" data-categoria="fotomontaje" aria-expanded="false" aria-label="Fotomontaje">
+          <img class="box-img" src="img/Mesa de trabajo 21.png" alt="Fotomontaje">
+        </button>
+
+        <button class="cat-card" data-categoria="grafico" aria-expanded="false" aria-label="Diseño Gráfico">
+          <img class="box-img" src="img/campañaspublicitarias.png" alt="Diseño Gráfico">
+        </button>
+
+        <button class="cat-card" data-categoria="web" aria-expanded="false" aria-label="Diseño Web">
+          <img class="box-img" src="img/Mesa de trabajo 23.png" alt="Diseño Web">
+        </button>
+      </div>
+    </section>
+
+    <!-- Modal dinámico -->
+    <section class="cat-section" hidden id="cat-section"></section>
+
+    <div
+      class="modal"
+      aria-hidden="true"
+      aria-modal="true"
+      id="work-modal"
+      role="dialog"
+    >
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <button class="modal-close" aria-label="Cerrar">✕</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-media"></div>
+          <div class="modal-content">
+            <div class="modal-col-left">
+              <h4 class="modal-title">Título</h4>
+              <p class="modal-desc"></p>
+            </div>
+            <aside class="modal-col-right">
+              <h5 class="modal-tools-title">Herramientas</h5>
+              <ul class="modal-tools"></ul>
+            </aside>
+          </div>
+        </div>
+
+        <div class="modal-nav" aria-hidden="true">
+          <button class="modal-prev" aria-label="Anterior"></button>
+          <button class="modal-next" aria-label="Siguiente"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= SERVICIOS ================= -->
+    <section class="servicios" id="servicios">
+      <h2 class="titulo-servicios">
+        ¿Te gustaron? Conocé más sobre nuestros servicios
+      </h2>
+      <div class="grid-servicios">
+        <div class="columna izquierda">
+          <img src="img/3d.png" alt="Servicio 3D" />
+          <img src="img/motion.png" alt="Motion Graphics" />
+          <img src="img/fotomontaje.png" alt="Fotomontaje" />
+        </div>
+        <div class="columna derecha">
+          <img src="img/diseño grafico.png" alt="Diseño Gráfico" />
+          <img src="img/web.png" alt="Web" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TU RINCÓN ================= -->
+    <section class="turincon" id="turincon">
+      <h2>Tu Rincón Interactivo</h2>
+      <div class="contenedor-base">
+        <img src="img/Base.jpg" alt="base" class="base" />
+        <div id="escritorio-objetos"></div>
+        <div id="costado-objetos"></div>
+        <div id="filtro-luz"></div>
+        <img
+          src="img/Degradado Fondo.png"
+          alt="degradado fondo"
+          id="degradado-fondo"
+        />
+
+        <!-- Botones de la derecha -->
+        <div class="botones-derecha">
+          <img
+            src="img/Boton Cosas Escritorio.png"
+            alt="Botón Costado Mesa"
+            class="btn-rincon"
+            id="btn-escritorio"
+          />
+          <img
+            src="img/Boton Cosas Costado Mesa.png"
+            alt="Botón Escritorio"
+            class="btn-rincon"
+            id="btn-costado"
+          />
+          <img
+            src="img/Boton Momento del dia.png"
+            alt="Botón Momento del Día"
+            class="btn-rincon"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="contacto" id="contacto">
+      <h2>Contactate con nuestro rincón</h2>
+      <div class="instagram-contenedor">
+        <a
+          class="instagram-icono"
+          href="https://www.instagram.com/somos.rincon/"
+          target="_blank"
+        >
+          <img src="img/iconoinstagram.png" alt="Instagram" />
+        </a>
+        <div class="instagram-box">
+          <span>Subimos cosas muy lindas!</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" id="footer">
+      <p>Hecho con ❤️ desde casa</p>
+      <div class="redes">
+        <a href="https://www.instagram.com/somos.rincon/" target="_blank"
+          >Instagram</a
+        >
+        <a href="https://www.artstation.com/rincon-multimedial" target="_blank"
+          >Artstation</a
+        >
+        <a href="mailto:rincon.agenciamultimedial@gmail.com">Contacto</a>
+      </div>
+    </footer>
+
+    <script src="java.js"></script>
+  </body>
+</html>
+

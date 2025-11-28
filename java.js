@@ -637,10 +637,10 @@ window.addEventListener("DOMContentLoaded", () => {
                 <div class="cat-card-row">
                   <button class="cat-card-btn"
                     data-title="Campaña para Swiss Medical"
-                    data-img="portfolio/campaña publicitaria/Videocaso_Swiss.mp4"
+                    data-img="portfolio/campana publicitaria/Videocaso_Swiss.mp4"
                     data-desc="Video representativo con Motion graphics representando que la salud no debe depender de un algoritmo"
                     data-tools="After Effects, Premiere Pro">
-                    <img src="portfolio/campaña publicitaria/swiss.png" alt="Rain SFX">
+                    <img src="portfolio/campana publicitaria/swiss.png" alt="campana">
                   </button>
                 </div>
             </div>`

@@ -538,15 +538,15 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Blitz"
             data-img="portfolio/3d/blitz/Blitz_360.mp4"
-            data-desc="Modelado 3D del personaje Blitzcrank de League of Legends"
+            data-desc="Modelado 3D del personaje Blitzcrank de League of Legends."
             data-tools="Blender, Rizom UV, Substance Painter">
             <img src="portfolio/3d/blitz/blitz.png" alt="Cubo">
           </button>
 
           <button class="cat-card-btn"
-            data-title="Bombero Avion y Tanque"
+            data-title="Bombero, Avión y Tanque"
             data-img="portfolio/3d/bombero avion tanque/render final.mp4"
-            data-desc="Modelados de distintos juguetes vintage"
+            data-desc="Modelados de distintos juguetes vintage."
             data-tools="Blender, Rizom UV, Substance Painter">
             <img src="portfolio/3d/bombero avion tanque/bom.png" alt="Grillo">
           </button>
@@ -554,7 +554,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Hora de aventura"
             data-img="portfolio/3d/hora de aventura/Render.mp4"
-            data-desc="Modelado 3D con efecto 2D del mundo de Hora de Aventura"
+            data-desc="Modelado 3D con efecto 2D del mundo de Hora de Aventura."
             data-tools="Blender, ZBrush, Rizom UV, Substance Painter">
             <img src="portfolio/3d/hora de aventura/hora.png" alt="Lapiz">
           </button>
@@ -562,7 +562,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Rena Ryuugu"
             data-img="portfolio/3d/rena ryuugu/Loop.mp4"
-            data-desc="Modelado de Rena Ryuugu de el anime Higurashi no Naku Koro ni"
+            data-desc="Modelado de Rena Ryuugu de el anime Higurashi no Naku Koro ni."
             data-tools="Blender, ZBrush, Rizom UV, Substance Painter">
             <img src="portfolio/3d/rena ryuugu/rena.png" alt="Mercado Pago">
           </button>
@@ -570,7 +570,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Reproductor NCT"
             data-img="portfolio/3d/reproductor/Reproductor-3600000.mp4"
-            data-desc="Reproductor de música Vintage Pop inspirado en la banda de K-Pop NCT Wish"
+            data-desc="Reproductor de música Vintage Pop inspirado en la banda de K-Pop NCT Wish."
             data-tools="Blender, Rizom UV, Substance Painter">
             <img src="portfolio/3d/reproductor/portadaana.png" alt="Rain SFX">
           </button>
@@ -589,7 +589,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Ultra Poster"
             data-img="portfolio/diseño grafico/ultra.jpg"
-            data-desc="Rediseño de poster para el festival de electrónica Ultra"
+            data-desc="Rediseño de poster para el festival de electrónica Ultra."
             data-tools="Photoshop">
             <img src="portfolio/diseño grafico/ultra.png" alt="Cubo" >
           </button>
@@ -597,7 +597,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Dua Lipa Poster"
             data-img="portfolio/diseño grafico/dua.jpg"
-            data-desc="Rediseño de poster para la gira de Latinoamérica del tour Radical Optimism de Dua Lipa"
+            data-desc="Rediseño de poster para la gira de Latinoamérica del tour Radical Optimism de Dua Lipa."
             data-tools="Photoshop">
             <img src="portfolio/diseño grafico/dua.png" alt="Grillo">
           </button>
@@ -605,7 +605,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Lulu Portada de Revista"
             data-img="portfolio/diseño grafico/lulu.jpg"
-            data-desc="Portada de revista del League of Legends sobre el personaje Lulu"
+            data-desc="Portada de revista del League of Legends sobre el personaje Lulu."
             data-tools="Illustrator">
             <img src="portfolio/diseño grafico/lulu.png" alt="Lapiz">
           </button>
@@ -613,7 +613,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="Miskota Identidad Visual"
             data-img="portfolio/diseño grafico/miskota_2.mp4"
-            data-desc="Identidad visual de Miskota, un pet shop"
+            data-desc="Identidad visual de Miskota, un pet shop."
             data-tools="Illustrator, Photoshop">
             <img src="portfolio/diseño grafico/miskota.png" alt="Mercado Pago">
           </button>
@@ -621,7 +621,7 @@ window.addEventListener("DOMContentLoaded", () => {
           <button class="cat-card-btn"
             data-title="The Notebook Poster"
             data-img="portfolio/diseño grafico/motebook.jpg"
-            data-desc="Poster inspirado en la famosa película The Notebook"
+            data-desc="Poster inspirado en la famosa película The Notebook."
             data-tools="Photoshop">
             <img src="portfolio/diseño grafico/nootbok.png" alt="Rain SFX">
           </button>
@@ -637,8 +637,8 @@ window.addEventListener("DOMContentLoaded", () => {
                 <div class="cat-card-row">
                   <button class="cat-card-btn"
                     data-title="Campaña para Swiss Medical"
-                    data-img="portfolio/campanas publicitarias/videocaso.mp4"
-                    data-desc="Video representativo con Motion graphics representando que la salud no debe depender de un algoritmo"
+                    data-img="portfolio/campanas publicitarias/videocaso_nuevo.mp4"
+                    data-desc="Video representativo con Motion graphics representando que la salud no debe depender de un algoritmo."
                     data-tools="After Effects, Premiere Pro">
                     <img src="portfolio/campanas publicitarias/swiss.png" alt="campana">
                   </button>

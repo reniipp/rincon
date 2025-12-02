@@ -775,6 +775,7 @@ section {
   align-items: center;
   width: 100%;
   padding: 12px 16px;
+   z-index: 3;   
 }
 
 .modal-title{ margin:0; font-family:'Kenarose',sans-serif; font-size: clamp(18px, 2.4vw, 26px); }

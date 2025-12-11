@@ -1081,23 +1081,20 @@ section {
 
 /* ===== FOOTER ===== */
 .footer {
-    background-color: var(--inicio-bg);
+    background-color: var(--nav-bg);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: 'Kenarose', sans-serif;
-    padding-bottom: 20px;
+    height: 110px;
     font-size: 1.1rem;
 }
 
-#footer {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background-image 0.6s ease;
-  position: relative;
+.titulofooter {
+  color: var(--nav-button-text);;
 }
+
 
 #cat-section {
   background-size: cover;

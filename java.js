@@ -946,11 +946,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const degradadoFondo = document.getElementById("degradado-fondo");
   const degradado = document.getElementById("degradado");
 
+  // 👇 la imagen de fondo "Base.jpg" (la <img class="base" ... />)
+  const baseImg = document.querySelector("#turincon .contenedor-base img.base");
+
   let estado = 0; // 0 = apagado, 1 = filtro, 2 = degradados
 
   btnLuz.addEventListener("click", () => {
-    estado = (estado + 1) % 3; // va ciclando entre 0-1-2
+    estado = (estado + 1) % 3; // 0-1-2
 
+    // ======= TU PEDIDO: cambiar Base.jpg por dia/tarde/noche =======
+    if (baseImg) {
+      if (estado === 1) baseImg.src = "img/Tarde.jpg";
+      else if (estado === 2) baseImg.src = "img/Noche.jpg";
+      else if (estado === 0) baseImg.src = "img/Dia.jpg";
+    }
+
+    // ======= lo que ya tenías (no se cambia) =======
     if (estado === 0) {
       filtro.classList.remove("activo");
       degradadoFondo.classList.remove("activo");
@@ -966,6 +977,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
 
 
